@@ -1,4 +1,4 @@
-## scraping_project
+# scraping_project
  
 The goal of this project is to scrape each state's growing season for each fruit on seasonalfoodguide.org
 
@@ -6,7 +6,7 @@ This would mean scraping thousands of pages like https://www.seasonalfoodguide.o
 
 The code itself was fairly simple and straightforward, since the site was well made and doesn't use any tricky html.
 
-# Steps:
+## Steps:
 1. Get a list of the states
     - The function get_list_states() was created (not necessary to be a function) takes a string argument of the homepage url
     - Get the home page html with Selenium 
