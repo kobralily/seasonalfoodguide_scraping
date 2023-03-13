@@ -8,7 +8,7 @@ The code itself was fairly simple and straightforward, since the site was well m
 
 ## Steps:
 1. Get a list of the states
-    - The function get_list_states() was created (not necessary to be a function) takes a string argument of the homepage url
+    - The function get_list_states() was created (not necessary to be a function) and takes a string argument of the homepage url
     - Get the home page html with Selenium 
     - Comb through that html with BeautifulSoup to get all the state names on the page from the drop down menu list
     - Put those states in a list variable and save it for later
